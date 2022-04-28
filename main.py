@@ -70,9 +70,9 @@ try:
             for j in range(size):
                 F[i][size - row_q % 2 + j] = E[i][j]
     else:
-        for j in range(row_q // 2 + row_q % 2, row_q, 1):
-            for i in range(row_q // 2):
-                F[i][j], F[row_q // 2 + row_q % 2 + i][j] = F[row_q // 2 + row_q % 2 + i][j], F[i][j]
+        for i in range(row_q // 2):
+            for j in range(0, row_q // 2):
+                F[i][j], F[i][row_q // 2 + row_q % 2 + j] = F[i][row_q // 2 + row_q % 2 + j], F[i][j]
 
     time_prev = time_next
     time_next = time.time()
