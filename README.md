@@ -1,1 +1,4 @@
-# laba-4
+Вариант № 15
+Формируется матрица F следующим образом: если в Е количество чисел, больших К в четных столбцах в области 1 больше, чем сумма чисел в нечетных строках в области 3, то поменять в Е симметрично области 1 и 3 местами, иначе В и С поменять местами несимметрично. При этом матрица А не меняется. После чего вычисляется выражение: A*F– K*AT . Выводятся по мере формирования А, F и все матричные операции последовательно.
+
+The matrix F is formed as follows: if in E the number of numbers greater than K in even columns in region 1 is greater than the sum of numbers in odd rows in region 3, then swap regions 1 and 3 symmetrically in E, otherwise swap B and C asymmetrically . In this case, the matrix A does not change. Then the expression is calculated: A*F– K*AT . Are displayed as the formation of A, F and all matrix operations sequentially.
