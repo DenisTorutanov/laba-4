@@ -50,7 +50,7 @@ try:
     print_matrix(E, "E", time_next - time_prev)
 
     cnt = 0
-    sum = 1
+    sum = 0
     for i in range(size):  # работаем с подматрицей E
         for j in range(size):
             if j % 2 == 0 and i < j and j > size - 1 - i and E[i][j] > K:
